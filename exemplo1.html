@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="pt-BR" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exemplo 1 &mdash; Documentação Estruturas de Madeira 0.1</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/nbsphinx-code-cells.css?v=2aa19091" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=88519e4e"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=daa5921a"></script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Buscar" href="search.html" />
+    <link rel="prev" title="2 - Propriedades da Madeira" href="propriedades.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Estruturas de Madeira
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Pesquisar documentos" aria-label="Pesquisar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="classifica.html">1 - Classificação das Árvores</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="propriedades.html">2 - Propriedades da Madeira</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#anisotropia">2.1 - Anisotropia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#densidade-basica-e-densidade-aparente">2.2 - Densidade básica e densidade aparente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#resistencia">2.3 - Resistência</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#rigidez">2.4 - Rigidez</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#umidade">2.5 - Umidade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#classes-de-resistencia">2.6 - Classes de resistência</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#valores-de-calculo-x-d">2.7 - Valores de cálculo(<span class="math notranslate nohighlight">\(X_{d}\)</span>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="propriedades.html#modulo-de-elasticidade-e">2.8 - Módulo de elasticidade(<span class="math notranslate nohighlight">\(E\)</span>)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="propriedades.html#exemplos">2.9 - Exemplos</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Exemplo 1</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Menu de navegação móvel" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Estruturas de Madeira</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Navegação da página">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="propriedades.html">2 - Propriedades da Madeira</a></li>
+      <li class="breadcrumb-item active">Exemplo 1</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/exemplo1.ipynb.txt" rel="nofollow"> Ver código-fonte da página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="Exemplo-1">
+<h1>Exemplo 1<a class="headerlink" href="#Exemplo-1" title="Link para este cabeçalho"></a></h1>
+<p>Uma estrutura será contruída em madeira serrada, classe C30, cuja unidade de equilíbrio é de 14%, em local com umidade relativa do ar de 70%. O carregamento será de longa duração. Determine as tensões normais resistentes de cálculo paralela e normal às fibras e de cisalhamento.</p>
+<ul class="simple">
+<li><p>Solução:</p></li>
+</ul>
+<p>Tensões normais resistentes de cálculo paralela e normal às fibras:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f_{t,0,d}\)</span>: Tensão de tração resistente de cáculo paralela às fibras;</p></li>
+<li><p><span class="math notranslate nohighlight">\(f_{t,90,d}\)</span>: Tensão de tração resistente de cáculo perpendicular às fibras;</p></li>
+<li><p><span class="math notranslate nohighlight">\(f_{c,0,d}\)</span>: Tensão de compressão resistente de cáculo paralela às fibras;</p></li>
+<li><p><span class="math notranslate nohighlight">\(f_{c,90,d}\)</span>: Tensão de compressão resistente de cáculo perpendicular às fibras;</p></li>
+</ul>
+<p>Tensão de cisalhamento resistentes de cálculo: <span class="math notranslate nohighlight">\(f_{v,d}\)</span></p>
+<p><span class="math notranslate nohighlight">\(X_{d} = k_{mod} \frac{X_{k}}{\gamma_{w}}\)</span></p>
+<p><span class="math notranslate nohighlight">\(k_{mod} = k_{mod_{1}} \times k_{mod_{2}}\)</span></p>
+<p>Calculando <span class="math notranslate nohighlight">\(k_{mod}\)</span>:</p>
+<p>Pela Tabela 4 da ABNT NBR 7190(1):2023, para carregamento de longa duração e madeira serrada, <span class="math notranslate nohighlight">\(k_{mod_{1}} = 0.70\)</span>. Como unidade de equilíbrio é de 14% em local com umidade relativa do ar de 70%, a umidade é de classe II. Ainda pela mesma norma, Tabela 5, para classe de umidade II, <span class="math notranslate nohighlight">\(k_{mod_{2}} = 0.90\)</span>, para madeira serrada. Logo:</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k_mod1</span> <span class="o">=</span> <span class="mf">0.70</span>
+<span class="n">k_mod2</span> <span class="o">=</span> <span class="mf">0.90</span>
+<span class="n">k_mod</span> <span class="o">=</span> <span class="n">k_mod1</span> <span class="o">*</span> <span class="n">k_mod2</span>
+<span class="n">k_mod</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.63
+</pre></div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gama_w</span> <span class="o">=</span> <span class="mf">1.4</span>
+</pre></div>
+</div>
+</div>
+<p>Para a madeira de classe C30, da Tabela 3, ABNT NBR 7190(1):2023, obtemos:</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">f_t0k</span> <span class="o">=</span> <span class="mf">18.0</span>
+<span class="n">f_t90k</span> <span class="o">=</span> <span class="mf">0.4</span>
+<span class="n">f_c0k</span> <span class="o">=</span> <span class="mf">23.0</span>
+<span class="n">f_c90k</span> <span class="o">=</span> <span class="mf">2.7</span>
+<span class="n">f_vk</span> <span class="o">=</span> <span class="mf">4.0</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">f_t0d</span> <span class="o">=</span> <span class="n">k_mod</span> <span class="o">*</span> <span class="n">f_t0k</span> <span class="o">/</span> <span class="n">gama_w</span>
+<span class="n">f_t90d</span> <span class="o">=</span> <span class="n">k_mod</span> <span class="o">*</span> <span class="n">f_t90k</span> <span class="o">/</span> <span class="n">gama_w</span>
+<span class="n">f_c0d</span> <span class="o">=</span> <span class="n">k_mod</span> <span class="o">*</span> <span class="n">f_c0k</span> <span class="o">/</span> <span class="n">gama_w</span>
+<span class="n">f_c90d</span> <span class="o">=</span> <span class="n">k_mod</span> <span class="o">*</span> <span class="n">f_c90k</span> <span class="o">/</span> <span class="n">gama_w</span>
+
+<span class="c1"># Nas linhas abaixo, imprimo os resultados, não se preocupe com sintaxe.</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;f_t0d = </span><span class="si">{</span><span class="n">f_t0d</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> MPa&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;f_t90d = </span><span class="si">{</span><span class="n">f_t90d</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> MPa&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;f_c0d = </span><span class="si">{</span><span class="n">f_c0d</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> MPa&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;f_c90d = </span><span class="si">{</span><span class="n">f_c90d</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> MPa&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+f_t0d = 8.10 MPa
+f_t90d = 0.18 MPa
+f_c0d = 10.35 MPa
+f_c90d = 1.22 MPa
+</pre></div></div>
+</div>
+<p>Para tensões de cisahamento, alteramos, <span class="math notranslate nohighlight">\(\gamma_{w} = 1.8\)</span>.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[5]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gama_w</span> <span class="o">=</span> <span class="mf">1.8</span>
+<span class="n">f_vd</span> <span class="o">=</span> <span class="n">k_mod</span> <span class="o">*</span> <span class="n">f_vk</span> <span class="o">/</span> <span class="n">gama_w</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;f_vd = </span><span class="si">{</span><span class="n">f_vd</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> MPa&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+f_vd = 1.40 MPa
+</pre></div></div>
+</div>
+<p>Então, os parâmetros solicitados são:</p>
+<div class="math notranslate nohighlight">
+\[f_{t,0,d} = 8.10 MPa\]</div>
+<div class="math notranslate nohighlight">
+\[f_{t,90,d} = 0.18 MPa\]</div>
+<div class="math notranslate nohighlight">
+\[f_{c,0,d} = 10.35 MPa\]</div>
+<div class="math notranslate nohighlight">
+\[f_{c,90,d} = 1.22 MPa\]</div>
+<div class="math notranslate nohighlight">
+\[f_{v,d} = 1.40 MPa\]</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
+        <a href="propriedades.html" class="btn btn-neutral float-left" title="2 - Propriedades da Madeira" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Direitos autorais 2025, Prof. Paulo Mappa.</p>
+  </div>
+
+  Compilado com <a href="https://www.sphinx-doc.org/">Sphinx</a> usando um
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    fornecido por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

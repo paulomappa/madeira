@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="pt-BR" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2 - Propriedades da Madeira &mdash; Documentação Estruturas de Madeira 0.1</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=88519e4e"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=daa5921a"></script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Buscar" href="search.html" />
+    <link rel="next" title="Exemplo 1" href="exemplo1.html" />
+    <link rel="prev" title="1 - Classificação das Árvores" href="classifica.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Estruturas de Madeira
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Pesquisar documentos" aria-label="Pesquisar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="classifica.html">1 - Classificação das Árvores</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2 - Propriedades da Madeira</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#anisotropia">2.1 - Anisotropia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#densidade-basica-e-densidade-aparente">2.2 - Densidade básica e densidade aparente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resistencia">2.3 - Resistência</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rigidez">2.4 - Rigidez</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#umidade">2.5 - Umidade</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#classes-de-umidade">Classes de  umidade</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#classes-de-resistencia">2.6 - Classes de resistência</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#valores-de-calculo-x-d">2.7 - Valores de cálculo(<span class="math notranslate nohighlight">\(X_{d}\)</span>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modulo-de-elasticidade-e">2.8 - Módulo de elasticidade(<span class="math notranslate nohighlight">\(E\)</span>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modulo-de-elasticidade-transversal">Módulo de elasticidade transversal</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exemplos">2.9 - Exemplos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="exemplo1.html">Exemplo 1</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exercicio">2.10 - Exercício</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tracionadas.html">3 - Peças Tracionadas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ligacoes.html">Ligações</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Menu de navegação móvel" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Estruturas de Madeira</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Navegação da página">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">2 - Propriedades da Madeira</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/propriedades.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <img alt="&quot;Logotipo&quot;" class="align-right" src="_images/madeira.png" />
+<section id="propriedades-da-madeira">
+<h1>2 - Propriedades da Madeira<a class="headerlink" href="#propriedades-da-madeira" title="Link para este cabeçalho"></a></h1>
+<section id="anisotropia">
+<h2>2.1 - Anisotropia<a class="headerlink" href="#anisotropia" title="Link para este cabeçalho"></a></h2>
+<p>Quando um corpo é fisicamente homogêneo, mas com propriedades que variam com a direção, longitudinal,radial e transversal, ele é formado por um material <strong>anisotrópico</strong>.
+<em>Esse é o caso da madeira</em>.
+Ou seja, <strong>as propriedades da madeira variam com a direção</strong>.</p>
+<img alt="&quot;eixos&quot;" class="align-center" src="_images/eixos.png" />
+<div class="admonition-nbr-7190-1-2023 admonition">
+<p class="admonition-title">NBR 7190-1:2023</p>
+<p>As propriedades da madeira são condicionadas por sua estrutura anatômica, devendo distinguir-se os valores correspondentes à tração dos correspondentes à compressão, bem como os valores correspondentes à direção paralela às fibras dos correspondentes à direção perpendicular às fibras.
+Devem também se distinguir os valores correspondentes às diferentes classes de umidade.</p>
+</div>
+</section>
+<section id="densidade-basica-e-densidade-aparente">
+<h2>2.2 - Densidade básica e densidade aparente<a class="headerlink" href="#densidade-basica-e-densidade-aparente" title="Link para este cabeçalho"></a></h2>
+<p>A <strong>densidade básica</strong> da madeira é a massa específica convencional obtida pelo quociente da massa
+seca pelo volume saturado.</p>
+<p>A <strong>densidade aparente</strong> da madeira é a massa específica obtida pelo quociente da massa pelo volume,
+ambos à mesma umidade</p>
+</section>
+<section id="resistencia">
+<h2>2.3 - Resistência<a class="headerlink" href="#resistencia" title="Link para este cabeçalho"></a></h2>
+<p>A resistência é a aptidão de um matérial suportar tensões.</p>
+</section>
+<section id="rigidez">
+<h2>2.4 - Rigidez<a class="headerlink" href="#rigidez" title="Link para este cabeçalho"></a></h2>
+<p>A rigidez dos materiais é medida pelo valor médio do módulo de elasticidade, determinado na fase
+de comportamento elástico-linear.</p>
+</section>
+<section id="umidade">
+<h2>2.5 - Umidade<a class="headerlink" href="#umidade" title="Link para este cabeçalho"></a></h2>
+<div class="admonition-nbr-7190-1-2023 admonition">
+<p class="admonition-title">NBR 7190-1:2023</p>
+<p>O projeto das estruturas de madeira deve ser feito admitindo-se uma das classes de umidade especificadas na Tabela 1.
+As classes de umidade têm por finalidade ajustar as propriedades de resistência e de rigidez da madeira em função das condições ambientais onde permanecem as estruturas durante a sua vida útil.</p>
+</div>
+<section id="classes-de-umidade">
+<h3>Classes de  umidade<a class="headerlink" href="#classes-de-umidade" title="Link para este cabeçalho"></a></h3>
+<p>O projeto das estruturas de madeira deve ser feito admitindo-se uma das classes de umidade especificadas na Tabela 1.</p>
+<p>As classes de umidade têm por finalidade ajustar as propriedades de resistência e de rigidez da madeira em função das condições ambientais onde permanecem asestruturas durante a sua vida útil.</p>
+<a class="reference internal image-reference" href="_images/tabela_1_nbr_7190.png"><img alt="&quot;umidade&quot;" src="_images/tabela_1_nbr_7190.png" style="width: 800px;" />
+</a>
+<p>A condição <strong>padrão de referência de umidade</strong> tomada pela ABNT NBR 7190-1:2023 é definida pelo teor de umidade de equilíbrio da madeira de 12 %.
+Todos os valores fornecidos são, então, referidos a essa umidade.</p>
+</section>
+</section>
+<section id="classes-de-resistencia">
+<h2>2.6 - Classes de resistência<a class="headerlink" href="#classes-de-resistencia" title="Link para este cabeçalho"></a></h2>
+<a class="reference internal image-reference" href="tabela_2_nbr_7190.png"><img alt="'tabela_2'" src="tabela_2_nbr_7190.png" style="width: 800px;" />
+</a>
+<a class="reference internal image-reference" href="_images/tabela_3_nbr_7190.png"><img alt="'tabela_3'" src="_images/tabela_3_nbr_7190.png" style="width: 800px;" />
+</a>
+</section>
+<section id="valores-de-calculo-x-d">
+<h2>2.7 - Valores de cálculo(<span class="math notranslate nohighlight">\(X_{d}\)</span>)<a class="headerlink" href="#valores-de-calculo-x-d" title="Link para este cabeçalho"></a></h2>
+<div class="math notranslate nohighlight">
+\[X_{d} = k_{mod} \frac{X_{k}}{\gamma_{w}}\]</div>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(X_{k}\)</span> é valor característico;</p></li>
+<li><p><span class="math notranslate nohighlight">\(\gamma_{w}\)</span> é o coeficiente de minoração das propriedades da madeira;</p>
+<blockquote>
+<div><p>Para <strong>estados-limite últimos</strong> decorrentes de tensões normais tem o valor básico de 1,4 e para os decorrentes de tensões de cisalhamento tem o valor básico de 1,8.</p>
+<p>O coeficiente de ponderação para <strong>estados-limite de serviço</strong> tem o valor básico de 1,0.</p>
+</div></blockquote>
+</li>
+<li><p><span class="math notranslate nohighlight">\(k_{mod}\)</span> é coeficiende de modificação.</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[k_{mod} = k_{mod_{1}} \times k_{mod_{2}}\]</div>
+</div></blockquote>
+</li>
+</ul>
+<a class="reference internal image-reference" href="_images/tabela_4_nbr_7190.png"><img alt="Alternative text" src="_images/tabela_4_nbr_7190.png" style="width: 800px;" />
+</a>
+<a class="reference internal image-reference" href="_images/tabela_5_nbr_7190.png"><img alt="Alternative text" src="_images/tabela_5_nbr_7190.png" style="width: 800px;" />
+</a>
+</section>
+<section id="modulo-de-elasticidade-e">
+<h2>2.8 - Módulo de elasticidade(<span class="math notranslate nohighlight">\(E\)</span>)<a class="headerlink" href="#modulo-de-elasticidade-e" title="Link para este cabeçalho"></a></h2>
+<p>O módulo de elasticidade na direção paralela às fibras (<span class="math notranslate nohighlight">\(E_{0}\)</span>) é definido em ensaios de flexão e tem os valores apresentados na Tabela 3.</p>
+<p>Ao se usar a Tabela 2, deve ser considerada a igualdade entre os valores médios obtidos na flexão e na compressão paralela às fibras <span class="math notranslate nohighlight">\(E_{0,m} = E_{c0,m}\)</span>.</p>
+<ul class="simple">
+<li><p>No caso do uso da Tabela 2, <span class="math notranslate nohighlight">\(E_{0,05} = 0.7 \times E_{c0,m}\)</span>;</p></li>
+<li><p>Nas verifcações de estados-limite últimos, <span class="math notranslate nohighlight">\(E_{0, ef} = k_{mod_{1}} \times k_{mod_{2}}\times E_{0,m }\)</span>;</p></li>
+<li><p>Nas verifcações de estados-limite de serviço, consideradar <span class="math notranslate nohighlight">\(E_{0,m}\)</span>.</p></li>
+</ul>
+<section id="modulo-de-elasticidade-transversal">
+<h3>Módulo de elasticidade transversal<a class="headerlink" href="#modulo-de-elasticidade-transversal" title="Link para este cabeçalho"></a></h3>
+<div class="math notranslate nohighlight">
+\[G med =\frac{E_{0,med}}{16}\]</div>
+</section>
+</section>
+<section id="exemplos">
+<h2>2.9 - Exemplos<a class="headerlink" href="#exemplos" title="Link para este cabeçalho"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="exemplo1.html">Exemplo 1</a></li>
+</ul>
+</div>
+</section>
+<section id="exercicio">
+<h2>2.10 - Exercício<a class="headerlink" href="#exercicio" title="Link para este cabeçalho"></a></h2>
+<p>(<a class="reference external" href="https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=171&amp;subject_ids%5B%5D=21555">FADESP - 2025 - UNIFESSPA - Engenheiro/Área Civil</a>. Acesso em abril/2025)</p>
+<p>As resistências de cálculo à compressão e ao cisalhamento paralelo às fibras (<span class="math notranslate nohighlight">\(f_{c0,d}\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d}\)</span>) de um elemento estrutural de madeira serrada (estados limites últimos), considerando que o material será aplicado em uma estrutura abrigada com umidade relativa do ambiente inferior a 65%, a classe de carregamento é de longa duração e a classe de resistência do material corresponde à classe D60 para espécies florestais nativas definidas em ensaios de corpos de prova isentos de defeitos, de acordo com a ABNT NBR 7190/2022 para projetos de estruturas de madeira, são:</p>
+<p>[A] <span class="math notranslate nohighlight">\(f_{c0,d} = 30MPa\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d} = 4MPa\)</span>.</p>
+<p>[B] <span class="math notranslate nohighlight">\(f_{c0,d} = 24MPa\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d} = 2,67MPa\)</span>.</p>
+<p>[C] <span class="math notranslate nohighlight">\(f_{c0,d} = 30MPa\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d} = 3,11MPa\)</span>.</p>
+<p>[D] <span class="math notranslate nohighlight">\(f_{c0,d} = 24MPa\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d} = 3,20MPa\)</span>.</p>
+<p>[E] <span class="math notranslate nohighlight">\(f_{c0,d} = 42MPa\)</span> e <span class="math notranslate nohighlight">\(f_{v0,d} = 4,20MPa\)</span>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
+        <a href="classifica.html" class="btn btn-neutral float-left" title="1 - Classificação das Árvores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="exemplo1.html" class="btn btn-neutral float-right" title="Exemplo 1" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Direitos autorais 2025, Prof. Paulo Mappa.</p>
+  </div>
+
+  Compilado com <a href="https://www.sphinx-doc.org/">Sphinx</a> usando um
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    fornecido por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

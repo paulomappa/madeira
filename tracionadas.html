@@ -1,0 +1,182 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="pt-BR" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3 - Peças Tracionadas &mdash; Documentação Estruturas de Madeira 0.1</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=88519e4e"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=daa5921a"></script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Buscar" href="search.html" />
+    <link rel="next" title="Ligações" href="ligacoes.html" />
+    <link rel="prev" title="Exemplo 1" href="exemplo1.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Estruturas de Madeira
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Pesquisar documentos" aria-label="Pesquisar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="classifica.html">1 - Classificação das Árvores</a></li>
+<li class="toctree-l1"><a class="reference internal" href="propriedades.html">2 - Propriedades da Madeira</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3 - Peças Tracionadas</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#condicao-de-seguranca">3.1 - Condição de segurança</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercicios">3.2 - Exercícios</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ligacoes.html">Ligações</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Menu de navegação móvel" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Estruturas de Madeira</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Navegação da página">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">3 - Peças Tracionadas</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/tracionadas.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pecas-tracionadas">
+<h1>3 - Peças Tracionadas<a class="headerlink" href="#pecas-tracionadas" title="Link para este cabeçalho"></a></h1>
+<p>Elementos estruturais, barras, tracionados aparecem em treliças, contraventamento e em tirantes.
+Na tesoura abaixo, a <strong>linha</strong> e o <strong>pendural</strong> são <strong>elementos tipicamente tracionados</strong>’.</p>
+<a class="reference internal image-reference" href="_images/tesoura1.png"><img alt="'tesoura'" src="_images/tesoura1.png" style="width: 400px;" />
+</a>
+<div class="admonition-nbr-7190-1-2023 admonition">
+<p class="admonition-title">NBR 7190-1:2023</p>
+<ul class="simple">
+<li><p>Tração paralela às fibras;</p></li>
+<li><p>Comportamento elasto-frágil até à ruptura, sem a ocorrência de valores significativos de deformações antes do rompimento;</p></li>
+<li><p>Tração paralela às fibras ocorre principalmente nas treliças e nos tirantes de madeira;</p></li>
+<li><p>Quando as tensões de <strong>tração perpendicular às fibras</strong> puderem atingir valores significativos, devem ser utilizados dispositivos que impeçam a ruptura decorrente dessas tensões.</p></li>
+</ul>
+</div>
+<section id="condicao-de-seguranca">
+<h2>3.1 - Condição de segurança<a class="headerlink" href="#condicao-de-seguranca" title="Link para este cabeçalho"></a></h2>
+<div class="math notranslate nohighlight">
+\[\sigma_{N_{t,d}} = \frac{N_{t,d}}{A} \leq f_{t,0,d}\]</div>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\sigma_{N_{t,d}}\)</span> é a tensão de tração solicitante de cálculo</p></li>
+<li><p><span class="math notranslate nohighlight">\(N_{t,d}\)</span> é a força de tração paralela às fibras;</p></li>
+<li><p><span class="math notranslate nohighlight">\(A\)</span> é a <strong>área líquida</strong> da secão tranversal;</p></li>
+</ul>
+</section>
+<section id="exercicios">
+<h2>3.2 - Exercícios<a class="headerlink" href="#exercicios" title="Link para este cabeçalho"></a></h2>
+<ol class="loweralpha simple">
+<li><p>Qual o máximo valor valor da força <span class="math notranslate nohighlight">\(F\)</span> de tração para a linha da tesuora (<span class="math notranslate nohighlight">\(16cm \times 8cm\)</span>) representada abaixo:</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/exer_1_tracao.png"><img alt="'exercicio1'" src="_images/exer_1_tracao.png" style="width: 400px;" />
+</a>
+<p>(<a class="reference external" href="https://www.fec.unicamp.br/~nilson/apostilas/apostila_exer_est_mad-rev1.pdf">Ramon Vileta, et all 2020</a>. Acesso em abril/2025)</p>
+<p>Dados:</p>
+<ul class="simple">
+<li><p>Madeira C30;</p></li>
+<li><p>Carregamento de longa duração;</p></li>
+<li><p>Classe 1 de umidade.</p></li>
+</ul>
+<p>b. O detalhe da figura representa a ligação entre o banzo superior e inferior, chamada ligação de extremidade, para uma treliça de madeira classe D60.
+Os esforços normais de cálculo nas peças estão identificados a seguir.
+Pede-se a verificação do estado limite último para a barra tracionada da ligação de extremidade.
+Considerar carregamento de longa duração e classe de umidade 2.</p>
+<a class="reference internal image-reference" href="_images/exer_2_tracao.png"><img alt="'exercicio2'" src="_images/exer_2_tracao.png" style="width: 400px;" />
+</a>
+<p>Esforços Barra 1-10:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(N_{gk} = + 23.86 N\)</span> (carga permanente);</p></li>
+<li><p><span class="math notranslate nohighlight">\(N_{qk} = + 12.35 N\)</span> (vento);</p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\(\theta = 23^o\)</span>.</p>
+<p>(<a class="reference external" href="https://giem.ufsc.br/files/2017/02/Apostila-Estrutura-de-Madeira.pdf">Ângela do Vale, et all 2012</a>. Acesso em abril/2025).</p>
+<p>c. A linha de uma tesoura está submetida ao esforço solicitante de cálculo <span class="math notranslate nohighlight">\(N_{sd} = 50kN\)</span>.
+Considerando uma situação duradoura de projeto, verifique se a seção <span class="math notranslate nohighlight">\(7,5 cm \times 10cm\)</span> atende a este esforço.</p>
+<a class="reference internal image-reference" href="_images/exer_3_tracao.png"><img alt="'exercicio2'" src="_images/exer_3_tracao.png" style="width: 400px;" />
+</a>
+<p>Dados:</p>
+<ul class="simple">
+<li><p>Conífera classe C-30;</p></li>
+<li><p>carregamento de longa duração;</p></li>
+<li><p>classe 4 de umidade;</p></li>
+<li><p>diâmetro dos furos <span class="math notranslate nohighlight">\(13,5 mm\)</span>.</p></li>
+</ul>
+<p>(<a class="reference external" href="https://giem.ufsc.br/files/2017/02/Apostila-Estrutura-de-Madeira.pdf">Ângela do Vale, et all 2012</a>. Acesso em abril/2025).</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
+        <a href="exemplo1.html" class="btn btn-neutral float-left" title="Exemplo 1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="ligacoes.html" class="btn btn-neutral float-right" title="Ligações" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Direitos autorais 2025, Prof. Paulo Mappa.</p>
+  </div>
+
+  Compilado com <a href="https://www.sphinx-doc.org/">Sphinx</a> usando um
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    fornecido por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
