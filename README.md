@@ -1,2 +1,2 @@
 # madeira
-Materia didático para disciplina Estruturas de Madeira
+Material didático para disciplina Estruturas de Madeira
