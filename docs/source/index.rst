@@ -1,22 +1,27 @@
-Welcome to Lumache's documentation!
-===================================
+Lumache hosts its documentation on Read the Docs.
+.. image:: madeira.png
+   :align: right
+   :alt: "Logotipo"
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Dimensionamento de Estruturas de Madeira
+==========================================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Material de apoio à disciplina **Estruturas de Madeira** do curso de Engenharia
+Civil do campus Varginha do CEFET-MG.
 
-.. note::
+A referência básica é a **ABNT NBR 7190-1 de 2023**.
 
-   This project is under active development.
 
-Contents
---------
 
 .. toctree::
+   :maxdepth: 2
+    
+   classifica 
+   propriedades
+   tracionadas
+   ligacoes
+    
 
-   usage
-   api
+
+   
+
