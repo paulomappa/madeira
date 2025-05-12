@@ -1,4 +1,4 @@
-.. image:: madeira.png
+.. image:: /docs/source/madeira.png
    :align: right
    :alt: "Logotipo"
 
