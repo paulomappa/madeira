@@ -18,7 +18,7 @@ A referência básica é a **ABNT NBR 7190-1 de 2023**.
    classifica 
    propriedades
    tracionadas
-   ligacoes
+
     
 
 
