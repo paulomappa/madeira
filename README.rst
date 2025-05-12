@@ -3,8 +3,9 @@
    :alt: "Logotipo"
 
 
-Material de Apoio para a disciplina Estruturas de Madeira
-=========================================================
+Material de apoio para a  disciplina Estruturas de Madeira
+===========================================================
+
 
 Desenvolvido com `Sphinx <https://www.sphinx-doc.org/en/master/>`_.
 
