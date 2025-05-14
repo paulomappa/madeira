@@ -1,4 +1,3 @@
-Lumache hosts its documentation on Read the Docs.
 .. image:: madeira.png
    :align: right
    :alt: "Logotipo"
