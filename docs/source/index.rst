@@ -1,3 +1,4 @@
+Lumache hosts its documentation on Read the Docs.
 .. image:: madeira.png
    :align: right
    :alt: "Logotipo"
@@ -18,7 +19,8 @@ A referência básica é a **ABNT NBR 7190-1 de 2023**.
    classifica 
    propriedades
    tracionadas
-
+   ligacoes
+   comprimidas
     
 
 
