@@ -1,67 +1,30 @@
-.. figure:: attachment:20f0c05e-885b-4826-8499-a21b21a2eb27.png
-   :alt: image.png
-
-   image.png
-
 Peças comprimidas
 -----------------
 
 **Além da verificação de estabilidade** de, acordo com o item 6.5 da
-ABNT NBR 7190-1:2022, a condição de segurança relativa à resistência à
+ABNT NBR 7190-1:2022, a condição de segurança relativa à resistência a
 compressão axial é calculada conforme a seguinte equação:
 
---------------
 
-$ :raw-latex:`\sigma `N\_{c,d} =
-:raw-latex:`\frac{N_{c,d}}{A}`:raw-latex:`\leq `f\_{c0,d} $
 
---------------
+.. math::
+   \sigma N_{c,d} = \frac{N_{c,d}}{A} \leq f_{c0,d} 
 
-.. raw:: html
 
-   <p>
 
-onde:
-
-.. raw:: html
-
-   <p>
-
--  :math:`\sigma N_{c,d}`: é o valor de cálculo da tensão de compressão
+- :math:`\sigma N_{c,d}`: Valor de cálculo da tensão de compressão
    normal à seção transversal;
 
-   .. raw:: html
-
-      <p>
-
--  :math:`N_{c,d}`: é o valor de cálculo da tensão de compressão normal
+- :math:`N_{c,d}`: Valor de cálculo da tensão de compressão normal
    à seção transversal;
 
-   .. raw:: html
+- :math:`A`: Área líquida da seção transversal;
 
-      <p>
-
--  :math:`A`: Área líquida da seção transversal;
-
-   .. raw:: html
-
-      <p>
-
--  :math:`f_{c0,d}`: é o valor de cálculo da resistência à compressão
+- :math:`f_{c0,d}`: Valor de cálculo da resistência a compressão
    paralela às fibras.
 
-   .. raw:: html
-
-      <p>
-
-..
-
-   No caso de peças com fibras inclinadas de ângulos
-   :math:`\alpha > 6^{o}`, aplica-se à :math:`f_{c0,d}` a redução
-   mostrada no item 6.2.8 da ABNT NBR 7190-1:2022.
-
-   Para madeira lamelada colada cruzada, a área da seção transversal
-   deve ser calculada conforme item 6.7.4.10.2 da ABNT NBR 7190-1:2022.
+No caso de peças com fibras inclinadas de ângulos :math:`\alpha > 6^{o}`, aplica-se à :math:`f_{c0,d}` a redução mostrada no item 6.2.8 da ABNT NBR 7190-1:2022.
+Para madeira lamelada colada cruzada, a área da seção transversal deve ser calculada conforme item 6.7.4.10.2 da ABNT NBR 7190-1:2022.
 
 Estabilidade
 ------------
